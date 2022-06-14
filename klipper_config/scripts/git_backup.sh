@@ -66,8 +66,7 @@ push_config(){
   git add . -v
   current_date=$(date +"%Y-%m-%d %T")
   git commit -m "Backup triggered on $current_date" -m "$m1" -m "$m2" -m "$m3" -m "$m4"
-#  git push "https://voronpi:$GH_TOKEN@github.com/richardjm/voronpi-klipper-backup.git"
-  git push "git@github.com:w35t13/V2.1885.git"
+  git push --set-upstream git@github.com:w35t13/V2.1885.git master
 }
 
 grab_version
