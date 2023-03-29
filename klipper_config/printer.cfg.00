@@ -1,7 +1,3 @@
-#[include ercf_hardware.cfg]
-#[include ercf_parameters.cfg]
-#[include ercf_software.cfg]
-[include client_macros.cfg]
 [include shell_command.cfg]
 [include mainsail.cfg]
 #[include ERCF/ercf_hardware.cfg]
@@ -22,7 +18,6 @@
 [include calibration.cfg]
 [include canbus.cfg]
 #[include klipper-mini12864.cfg]
-[include Voron_Purge.cfg]
 
 [exclude_object]
 
